@@ -1,0 +1,12 @@
+[data-isopen="false"],
+[data-isopen="true"] {
+  transition: width 0.3s ease, overflow 0.3s ease;
+}
+[data-isopen="false"] {
+  width: 5.5rem !important;
+  overflow: hidden !important;
+}
+
+[data-isopen="true"] {
+  width: 20rem !important;
+}
