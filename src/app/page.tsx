@@ -1,11 +1,11 @@
 import React from "react";
-import Table from "../components/Table";
+import TableInfo from "../components/TableInfo";
 
 function Home() {
   return (
-    <div>
-      <h1 className="text-red-400">รายการขอขึ้นทะเบียน</h1>
-      <Table />
+    <div className="container max-w-[1200px] mx-auto py-12">
+      <h1 className="text-2xl font-sem mb-4 font-noto-sans font-semibold">รายการขอขึ้นทะเบียน</h1>
+      <TableInfo />
     </div>
   );
 }

@@ -1,4 +1,4 @@
-export interface Hospital {
+interface Hospital {
   name: string;
   code: number;
   createDate: string;
@@ -6,3 +6,5 @@ export interface Hospital {
   verifyDate: string;
   status: string;
 }
+
+export type { Hospital };

@@ -1,0 +1,11 @@
+table {
+  thead tr th {
+    @apply !text-sm font-noto-sans;
+  }
+  tbody tr td {
+    @apply !text-base font-noto-sans-looped;
+    .chip {
+      @apply min-w-[163px] text-center text-sm;
+    }
+  }
+}
