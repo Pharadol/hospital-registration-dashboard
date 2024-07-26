@@ -225,13 +225,13 @@ function TableInfo() {
     );
     if (status) {
       return (
-        <Chip size="sm" variant="flat" color={status.color} className="chip">
+        <Chip size="sm" variant="flat" color={status.color} className="text-sm !min-w-[163px] text-center">
           {value}
         </Chip>
       );
     }
     return (
-      <Chip size="sm" variant="flat" className="chip">
+      <Chip size="sm" variant="flat" className="text-sm !min-w-[163px] text-center">
         {value}
       </Chip>
     );
